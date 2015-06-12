@@ -1,0 +1,27 @@
+{
+  "name": "setinterval-plus",
+  "version": "1.0.0",
+  "description": "A replacment to normal setInterval which includes pausing and resuming",
+  "main": "setInterval.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha -- -R spec",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
+  "author": "thehobbit85",
+  "license": "MIT",
+  "keywords": [
+    "setInterval",
+    "pause",
+    "resume",
+    "timers",
+    "timer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thehobbit85/setinterval-plus.git"
+  }
+}
