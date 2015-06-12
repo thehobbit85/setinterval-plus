@@ -1,17 +1,17 @@
-# setInterval-plus
-[![Build Status](https://travis-ci.org/thehobbit85/setInterval-plus.svg?branch=master)](https://travis-ci.org/thehobbit85/setInterval-plus) [![Coverage Status](https://coveralls.io/repos/thehobbit85/setInterval-plus/badge.svg?branch=master)](https://coveralls.io/r/thehobbit85/setInterval-plus?branch=master) [![npm version](https://badge.fury.io/js/setInterval-plus.svg)](http://badge.fury.io/js/setInterval-plus)
+# setinterval-plus
+[![Build Status](https://travis-ci.org/thehobbit85/setinterval-plus.svg?branch=master)](https://travis-ci.org/thehobbit85/setinterval-plus) [![Coverage Status](https://coveralls.io/repos/thehobbit85/setinterval-plus/badge.svg?branch=master)](https://coveralls.io/r/thehobbit85/setinterval-plus?branch=master) [![npm version](https://badge.fury.io/js/setinterval-plus.svg)](http://badge.fury.io/js/setinterval-plus)
 
-setInterval-plus is inspired (and mostly copied) from the [stackoverflow] answer on how to pause and resume normal setInterval timers.
-What setInterval-plus provides is a smiliar API as the vanila function setIntreval only the object returned isn't a Timer but instead it returns and object with the ability to start/pause/resume/stop the Timer object with a very intuitive and foolproof API.
+setinterval-plus is inspired (and mostly copied) from the [stackoverflow] answer on how to pause and resume normal setInterval timers.
+What setinterval-plus provides is a smiliar API as the vanila function setIntreval only the object returned isn't a Timer but instead it returns and object with the ability to start/pause/resume/stop the Timer object with a very intuitive and foolproof API.
 
 ### Installation
 
 ```sh
-$ npm i setInterval-plus
+$ npm i setinterval-plus
 ```
 
 
-### Create a new setInterval-plus
+### Create a new setinterval-plus
 
 After creating a new instance the timer will start running.
 
@@ -40,7 +40,7 @@ timer.start() // Start back a stoped interval with the original interval time
 ##### Example:
 
 ```js
-var _setInterval = require('setInterval-plus')
+var _setInterval = require('setinterval-plus')
 
 var runs = 0
 var timer = new _setInterval(function () {
@@ -74,7 +74,7 @@ setTimeout(function () {
 In order to test you need to install [mocha] globaly on your machine
 
 ```sh
-$ cd /"module-path"/setInterval-plus
+$ cd /"module-path"/setinterval-plus
 $ mocha
 ```
 
