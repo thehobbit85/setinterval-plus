@@ -1,6 +1,8 @@
 # setinterval-plus
 [![Build Status](https://travis-ci.org/thehobbit85/setinterval-plus.svg?branch=master)](https://travis-ci.org/thehobbit85/setinterval-plus) [![Coverage Status](https://coveralls.io/repos/thehobbit85/setinterval-plus/badge.svg?branch=master)](https://coveralls.io/r/thehobbit85/setinterval-plus?branch=master) [![npm version](https://badge.fury.io/js/setinterval-plus.svg)](http://badge.fury.io/js/setinterval-plus)
 
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
 setinterval-plus is inspired by the [stackoverflow] answer on how to pause and resume normal setInterval timers.
 What setinterval-plus provides is a smiliar API as the vanila function setIntreval only the object returned isn't a Timer but instead it returns and object with the ability to start/pause/resume/stop the Timer object with a very intuitive and foolproof API.
 
