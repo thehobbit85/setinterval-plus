@@ -73,11 +73,10 @@ setTimeout(function () {
 ```
 ### Testing
 
-In order to test you need to install [mocha] globaly on your machine
-
 ```sh
 $ cd /"module-path"/setinterval-plus
-$ mocha
+$ npm i
+$ npm test
 ```
 
 
