@@ -71,10 +71,11 @@ setTimeout(function () {
 }, 350) // Will run for 350 ms which are 3 full runs
 
 ```
-### Testing
+### Development
 
 ```sh
-$ cd /"module-path"/setinterval-plus
+$ git clone git@github.com:thehobbit85/setinterval-plus.git
+$ cd setinterval-plus
 $ npm i
 $ npm test
 ```
