@@ -78,6 +78,7 @@ $ git clone git@github.com:thehobbit85/setinterval-plus.git
 $ cd setinterval-plus
 $ npm i
 $ npm test
+$ npm run coverage
 ```
 
 
