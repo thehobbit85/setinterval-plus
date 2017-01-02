@@ -71,13 +71,14 @@ setTimeout(function () {
 }, 350) // Will run for 350 ms which are 3 full runs
 
 ```
-### Testing
-
-In order to test you need to install [mocha] globaly on your machine
+### Development
 
 ```sh
-$ cd /"module-path"/setinterval-plus
-$ mocha
+$ git clone git@github.com:thehobbit85/setinterval-plus.git
+$ cd setinterval-plus
+$ npm i
+$ npm test
+$ npm run coverage
 ```
 
 
