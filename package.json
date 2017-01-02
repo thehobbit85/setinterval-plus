@@ -1,6 +1,6 @@
 {
   "name": "setinterval-plus",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A replacment to normal setInterval which includes pausing and resuming",
   "main": "setInterval.js",
   "directories": {
